@@ -8,13 +8,13 @@ const setInvalid = (text) => {
 let loginBtn = document.getElementById("login");
 loginBtn.addEventListener("click", async () => {
   let password = document.querySelector(".password").value;
-  
+
   const response = await fetch("login.php", {
     method: "POST",
     headers: {
-        "Content-Type": "application/json",
+      "Content-Type": "application/x-www-form-urlencoded",
     },
-    body: JSON.stringify({ password: password })
+    body: new URLSearchParams({ password: password }).toString()
   });
   if (!response.ok) {
     setInvalid("Something unexpected happened, couldn't process request...");
