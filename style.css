@@ -1,0 +1,76 @@
+* {
+  font-family: "Cinzel";
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url("./arriettyhp.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -80%;
+  background-color: #FFF6EF;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: 70px;
+  text-align: center;
+  font-weight: 400;
+  text-shadow: 2px 2px 4px #292929;
+}
+
+h2{
+  margin-top: -20px;
+  padding-top: 0px;
+  text-align: center;
+  margin-left: 250px;
+  font-weight: 400;
+}
+
+.password {
+  /* stupid stuff :( */
+  flex: auto;
+  flex-grow: 0;
+  min-height: 22px;
+  max-height: 22px;
+  box-sizing: border-box;
+  margin-top: 1.5px;
+  /* stupid stuff :( */
+
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+  text-align: center;
+  background-color: transparent;
+}
+button {
+  /* stupid stuff :( */
+  min-width: 100px;
+  max-width: 100px;
+  flex: auto;
+  /* stupid stuff :( */
+
+  font-size: 17px;
+  background-color: transparent;
+  border: none;
+}
+
+.login{
+  /* stupid stuff :( */
+  display: flex;
+  justify-content: center;
+  /* stupid stuff :( */
+
+  
+  margin-top: 50px;
+}
+#invalid {
+  color: indianred;
+  text-align: center;
+}
