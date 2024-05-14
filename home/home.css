@@ -1,0 +1,78 @@
+* {
+  font-family: "Cinzel";
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #FFF6EF;
+}
+
+.border-one {
+  float: left;
+  color:#302324 ;
+  border: 2px solid #302324; /* width style color */
+  border-radius: 25px ;
+  margin-top: 100px;
+  margin-left: 100px ;
+  width: 300px;
+  height: 700px ;
+}
+
+h1{
+  font-size: 50px;
+  margin-bottom: -10px;
+  text-align: center ;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px #292929;
+}
+
+.est {
+  margin-top: -10px ;
+  margin-left: 200px ;
+  margin-bottom: 30px ;
+  font-weight: 500;
+}
+
+
+.line {
+  height: 1px;
+  width: 80% ;
+  margin: auto ;
+  margin-bottom: 50px ;
+  background-color: #302324;
+}
+
+.contents {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: #302324 ;
+  font-weight: 400;
+  font-size: 20px;
+}
+.contents span {
+  padding: 5px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.contents span:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.contents span.active {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.border-two {
+  float: left;
+  color:#302324 ;
+  border: 2px solid #302324;
+  border-radius: 25px ;
+  margin-top: 100px;
+  margin-left: 30px ;
+  width: 1400px;
+  height: 700px ;
+}

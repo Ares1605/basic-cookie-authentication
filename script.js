@@ -21,7 +21,7 @@ loginBtn.addEventListener("click", async () => {
   }
   let text = await response.text();
   if (text == "success") {
-    window.location.href = "./home.php";
+    window.location.href = "./home/";
   } else {
     setInvalid("Invalid password!");
   }
